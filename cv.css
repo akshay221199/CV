@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 5%;
+    padding: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    /* 0px for horizontal, 4px for vertical, 8px for blur radius */
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.headers {
+    background-color: #E6E6E6;
+    padding: 10px;
+
+}
+
+h1 {
+    font-size: 50px;
+    padding: 5px;
+}
+
+.contact-info {
+    margin-left: 60px;
+}
+
+.gmail-info {
+    margin-left: 50px;
+}
+
+.address {
+    margin-left: 50px;
+}
+
+.header-2 {
+    margin: 7px;
+    display: flex;
+
+}
+
+.linkdin-info {
+    margin-left: 50px;
+    font-style: none;
+}
+
+hr {
+
+    margin-top: 20px;
+    width: 100%;
+    border: none;
+    height: 1px;
+    border: 4px solid black;
+}
+
+.container {
+    margin-top: 10px;
+}
+
+.technical-skills,
+.tech-skills,
+.skills {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.technical-skills li,
+.tech-skills li,
+.skills {
+    /* list-style-type: none; */
+    margin-right: 100px;
+
+}
+
+.education {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.education b {
+    position: relative;
+    margin-left: 550px;
+}
